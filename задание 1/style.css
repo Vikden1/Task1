@@ -1,0 +1,243 @@
+.background {
+  background-color: #000000;
+  width: 1440px;
+  height: 2717px;
+  position: relative;
+  margin: auto;
+}
+.main_photo {
+  width: 536px;
+  height: 662px;
+  background-image: url(img/main.webp);
+  margin-top: 113px;
+  margin-bottom: 1942px;
+  margin-left: 141px;
+  margin-right: 763px;
+  position: absolute;
+}
+.arrow1 {
+  position: absolute;
+  left: -1px;
+  top: 82px;
+}
+.slider-container {
+  position: absolute;
+  top: 793px;
+  bottom: 1757px;
+  right: 673px;
+  left: 51px;
+}
+
+h4 {
+  color: aqua;
+  margin: 0px;
+  width: 772px;
+  height: 28px;
+  position: relative;
+  left: 500px;
+}
+@font-face {
+  /*Добавляем 2 вида шрифтов*/
+  font-family: "HandelGothic TL";
+  src: url("fonts/HandelGothic\ TL\ Kirillica.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("fonts/helvetica_regular.otf") format("truetype");
+}
+.FIO {
+  width: 674px;
+  height: 255px;
+  margin-top: 113px;
+  margin-bottom: 2349px;
+  margin-left: 723px;
+  margin-right: 43px;
+  font-family: "HandelGothic TL", sans-serif;
+  font-weight: 400;
+  font-size: 86px;
+  line-height: 84.7px;
+  color: #ffffff;
+  position: absolute;
+}
+.director {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 100%;
+  vertical-align: top;
+  letter-spacing: -1.5%;
+  color: #ffbf40;
+  width: 582px;
+}
+.another {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27.6px;
+  vertical-align: top;
+  letter-spacing: -1.5%;
+  color: white;
+  font-weight: 400;
+  width: 582px;
+}
+
+.main > p {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  vertical-align: top;
+  letter-spacing: -0.015em;
+  color: #ffbf40;
+  position: absolute;
+  height: 28px;
+  width: 772px;
+  left: 141px;
+  top: 53px;
+  border-radius: 0px;
+  text-transform: uppercase;
+}
+.info_block {
+  height: 1405px;
+  width: 1164px;
+  display: inline-block;
+  margin-left: 138px;
+  background-color: white;
+  border-radius: 48px;
+}
+
+.text > p {
+  font-family: "HandelGothic TL", sans-serif;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 44px;
+  line-height: 98%;
+  vertical-align: top;
+  letter-spacing: -3%;
+  display: inline-block;
+}
+
+.rewards {
+  margin-bottom: 0px;
+}
+.text {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  vertical-align: top;
+  margin-left: 60px;
+}
+.about {
+  font-family: "Helvetica", sans-serif;
+  color: #ffbf40;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 100%;
+  vertical-align: top;
+  letter-spacing: -1.5%;
+}
+
+.plan {
+  color: #ffbf40;
+}
+.main {
+  height: 975px;
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.slider-img {
+  max-height: 466px;
+}
+.container {
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.itc-slider {
+  position: relative;
+  margin: 0px;
+}
+
+.itc-slider-wrapper {
+  overflow: hidden;
+}
+
+.itc-slider-items {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.itc-slider-transition-none {
+  transition: none;
+}
+.itc-slider-item {
+  flex: 0 0 33.3333333333%;
+  max-width: 66.666666666%;
+  max-height: 466px;
+  display: flex;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 7rem;
+}
+
+/* кнопки влево и вправо */
+.itc-slider-btn {
+  position: absolute;
+  top: 110%;
+  display: flex;
+
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1 px solid black;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+  background-color: transparent;
+  border: none;
+}
+.itc-slider-btn-prev {
+  left: 0px;
+}
+
+.itc-slider-btn-next {
+  right: 30px;
+}
+
+.itc-slider-btn:hover,
+.itc-slider-btn:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+}
+
+.itc-slider-btn::before {
+  content: "";
+
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 449px;
+  height: 84.06px;
+  margin: auto;
+  margin-top: 160px;
+}
